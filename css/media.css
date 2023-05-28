@@ -1,0 +1,144 @@
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1110px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 1024) {
+  .main-navigation {
+    display: none;
+  }
+}
+
+@media (min-width: 1024px) {
+  .hidedesktop {
+    display: none;
+  }
+}
+
+@media (min-width: 640px) {
+  .header nav {
+    border-bottom: 1px solid #b6bcc8;
+  }
+}
+
+@media (min-width: 1024px) {
+  .header nav {
+    padding: 45px 0;
+  }
+}
+
+@media (min-width: 640px) {
+  .header .mobileNavgation {
+    width: 350px;
+  }
+}
+
+
+@media (max-width: 990px) {
+  .main-navgation {
+    display: none;
+  }
+}
+
+@media (min-width: 1024px) {
+  .header .controls {
+    gap: 40px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .header .user-avater {
+    width: 50px;
+    height: 50px;
+  }
+}
+
+@media (min-width: 640px) {
+  .cart.open .cart-list-wrapper {
+    top: calc(100% + -15px);
+  }
+}
+
+@media (min-width: 1024px) {
+  .cart.open .cart-list-wrapper {
+    top: calc(100% + -30px);
+  }
+}
+
+@media (min-width: 640px) {
+  .cart .cart-list-wrapper {
+    top: 100%;
+    width: 360px;
+    right: 0;
+    left: initial;
+    transform: initial;
+  }
+}
+
+@media (min-width: 1024px) {
+  .cart .cart-list-wrapper {
+    top: calc(100% + -15px);
+  }
+}
+
+@media (min-width: 640px) {
+  .product-wrapper .container {
+    padding: 90px 24px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .product-wrapper .container {
+    flex-direction: row;
+    gap: 120px;
+    padding: 90px 50px;
+  }
+}
+
+@media (min-width: 640px) {
+  .product-images-wrapper {
+    max-width: 440px;
+    margin: auto;
+  }
+}
+
+@media (min-width: 640px) {
+  .preview-image-wrapper .preview-image {
+    border-radius: 15px;
+  }
+}
+
+@media (min-width: 640px) {
+  .product-details-wrapper {
+    padding: 45px 0;
+  }
+}
+
+@media (min-width: 1024px) {
+  .product-details-wrapper {
+    padding: 65px 0;
+  }
+}
+
+@media (min-width: 1024px) {
+  .product-details-wrapper .product-title {
+    font-size: 48px;
+    margin-bottom: 40px;
+  }
+}
+
+@media (min-width: 640px) {
+  .product-details-wrapper .add-to-cart-form {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+}
+
+@media (min-width: 640px) {
+  .product-details-wrapper .add-to-cart-form .add-btn {
+    margin-top: 0;
+  }
+}
